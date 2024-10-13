@@ -6,5 +6,5 @@ async def scan():
     for device in devices:
         print(device)
 
-loop = asyncio.new_event_loop()
-asyncio.set_event_loop(loop)
+
+asyncio.run(scan())
